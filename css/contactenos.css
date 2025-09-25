@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Ribeye&family=Righteous&display=swap');
+
+body {  
+    margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #fff 40%, #3a3838 100%);
+      min-height: 100vh;
+  }
+  /*Logo*/
+header .logo h1{
+    margin-left: 2vh;
+    font-family: 'Arial', sans-serif;
+    font-size: 2vw;
+    }
+    header .logo {
+        display: flex;
+        align-items: center;
+    }
+    header .logo h1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    header .logo .emoji {
+        font-size: 1.7rem;
+        margin-right: 2px;
+    }
+/*Header*/
+header{
+    margin-top: 0;
+    background-color: #3b141c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+/*Navegacion*/
+header nav{
+    margin-right: 20px;
+    margin-top: 0px;
+    padding: 0px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+header nav ul li{
+    margin: 2px;
+    padding: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 20px;
+    font-size: 3vh;
+}
+header nav ul li:hover{
+    background-color:rgb(248, 170, 0);
+    border-radius: 20px;
+}
+  /*AJUSTE GENERAL DE LA SECCION*/
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+section .linea {
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #caa733;
+    margin: 0px auto 0 auto;
+    border-radius: 2px;
+    margin-top: 0%;
+}
+section .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10vw;
+    margin-top: 7%;
+    justify-content: center;
+}
+section .info .info-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    gap: 2%;
+}
+section .info form{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    width: 30vw;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+section .info form input{
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    border: 1px;
+    border-color: #5a5a5a;
+    border-style: solid;
+
+}
+section .info form textarea{
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    border: 1px;
+    border-color: #4d4b4b;
+    border-style: solid;
+}
+section .info form button{
+    width: 5vw;
+    height: 4vh;
+    margin-top: 2%;
+    background-color: #3b141c;
+    color: white;
+    border-radius: 10px;
+    border-style:none ;
+}

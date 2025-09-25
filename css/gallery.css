@@ -99,7 +99,7 @@ section .imagenes{
     gap: 10px;
 }
 section .imagenes img{
-    width: 500px;
+    width: 30%;
     height: auto;
     border-radius: 10px;
 

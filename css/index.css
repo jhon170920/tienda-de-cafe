@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Ribeye&family=Righteous&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: rgb(65, 8, 11);
+    background-color: #3b141c;
 }
 /*Logo*/
 header .logo h1{
-    margin-left: 20px;
+    margin-left: 2vh;
     font-family: 'Arial', sans-serif;
+    font-size: 2vw;
     }
     header .logo {
         display: flex;
@@ -24,7 +27,7 @@ header .logo h1{
     }
 /*Header*/
 header{
-    background-color: rgb(65, 8, 11);
+    background-color: #3b141c;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -40,7 +43,7 @@ header nav{
 header nav ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 2vw;
 }
 header nav ul li{
     margin: 2px;
@@ -52,6 +55,7 @@ header nav ul li a{
     font-weight: bold;
     padding: 2px;
     border-radius: 20px;
+    font-size: 3vh;
 }
 header nav ul li:hover{
     background-color:rgb(248, 170, 0);
@@ -59,38 +63,42 @@ header nav ul li:hover{
 }
 /*Section cafe*/
 section{
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    gap: 2vh;
 }
 section .texto-cafe{
     text-align: left 0;
     margin-left: 0px;
     padding-right: 100px;
+    width: 80%;
 }
 section .texto-cafe h3{
-    color: rgb(248, 170, 0);
-    font-size: 1.25rem;
-    font-family: 'Arial', sans-serif;
+    color: #f3961c;
+    font-size: 3vh;
+    font-family:"Miniver", sans-serif;
 }
 section .texto-cafe h2{
     color: white;
-    font-size: 2rem;
-    font-family: 'Arial', sans-serif;
+    font-size: 4vh;
+    font-family: sans-serif;
 }
 section .texto-cafe p{
     color: white;
-    font-size: 1rem;
-    font-family: 'Arial', sans-serif;
-    width: 50%;
+    font-size: 3vh;
+    font-family: sans-serif;
+    width: 60%;
 }
 /*Botones*/
 section .texto-cafe button{
-    background-color: rgb(248, 170, 0);
+    background-color: #f3961c;
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 3vh;
     font-family: 'Arial', sans-serif;
     cursor: pointer;
     border-radius: 20px;
@@ -99,9 +107,10 @@ section .texto-cafe button{
     margin-left: 10px;
 }
 /*Imagen cafe*/
+section .img-cafe{
+    margin-right: 10%;
+}
 section .img-cafe img{
-    width: 600px;
-    height: auto;
-    border-radius: 10px;
-    margin-left: 20px;
+    margin-top: 5%;
+    width: 35vw;
 }
