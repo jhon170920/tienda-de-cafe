@@ -1,0 +1,106 @@
+body {  
+  margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fff 40%, #242222 100%);
+    /* Ajuste para barra fija */
+    padding-top: 60px;
+    min-height: 100vh;
+}
+/*Logo*/
+header .logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+header .logo h1 {
+    margin-left: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+/*Header*/
+header {
+    background-color: rgb(65, 8, 11);
+    color: white;
+    width: 100vw;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+/*Navegacion*/
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li{
+    margin: 2px;
+    padding: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+
+}
+header nav ul li:hover{
+    background-color:rgb(248, 170, 0);
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 90px 0 90px;
+    flex-direction: column;
+
+}
+section h1{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+section .linea {
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #caa733;
+        margin: 0px auto 0 auto;
+    border-radius: 2px;
+    margin-top: 0%;
+}
+section .imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+section .imagenes img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 34, 34);
+    /* Ajuste para barra fija */
+    padding-top: 60px;
+}
+/*Logo*/
+header .logo h1{
+    margin-left: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+}
+    header .logo {
+        display: flex;
+        align-items: center;
+    }
+    header .logo h1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    header .logo .emoji {
+        font-size: 1.7rem;
+        margin-right: 2px;
+}
+/*Header*/
+header {
+    background-color: rgb(65, 8, 11);
+    color: white;
+    width: 100vw;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+/*Navegacion*/
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header nav ul li{
+    margin: 2px;
+    padding: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+
+}
+header nav ul li:hover{
+    background-color:rgb(248, 170, 0);
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 90px 0 90px;
+    flex-direction: column;
+
+}
+section h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+section .linea {
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #d4af37;
+        margin: 0px auto 0 auto;
+    border-radius: 2px;
+    margin-top: 0%;
+}
+section .cards-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20vh;
+}
+section .cards{
+    margin-top: 40px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+section img{
+    width: 100%;
+    height: auto;
+}
+section .cards h3{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+section .cards p{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
