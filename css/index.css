@@ -64,7 +64,9 @@ section{
     align-items: center;
 }
 section .texto-cafe{
-    text-align: left;
+    text-align: left 0;
+    margin-left: 0px;
+    padding-right: 100px;
 }
 section .texto-cafe h3{
     color: rgb(248, 170, 0);
@@ -98,7 +100,7 @@ section .texto-cafe button{
 }
 /*Imagen cafe*/
 section .img-cafe img{
-    width: 300px;
+    width: 600px;
     height: auto;
     border-radius: 10px;
     margin-left: 20px;
